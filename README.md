@@ -85,13 +85,16 @@ config.unwatch();
 
 ```
 
+Listen for changes:
+```
+const config=Config.watch('../etc',['configA.json','configB.json']);
+config.events.on('change',function (config,name){...})
+
+```
+
 The configs are "required" so they may be any valid JS/JSON script.
 
 ### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
 
 ```
 npm install nodejs-live-config
