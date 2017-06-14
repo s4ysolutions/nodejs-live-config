@@ -1,0 +1,17 @@
+{
+  "name": "live-config",
+  "version": "1.0.0",
+  "description": "A config interface to watch the config dir changed and reload json configuraton files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "config",
+    "live",
+    "watch",
+    "dynamic"
+  ],
+  "author": "S4Y Solution <android@s4y.solutions>",
+  "license": "ISC"
+}
