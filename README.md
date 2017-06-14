@@ -62,7 +62,6 @@ Few configs
 ```
 const LiveConfig = require ('live-config');
 ...
-// one config file is simple
 config.watch('../etc',['config1.json','config2.json']);
 ...
 console.log(LiveConfig());
