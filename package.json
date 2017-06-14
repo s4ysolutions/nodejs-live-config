@@ -1,5 +1,5 @@
 {
-  "name": "live-config",
+  "name": "nodejs-live-config",
   "version": "1.0.0",
   "description": "A config interface to watch the config dir changed and reload json configuraton files",
   "main": "index.js",

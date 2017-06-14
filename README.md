@@ -94,7 +94,7 @@ A step by step series of examples that tell you have to get a development env ru
 Say what the step will be
 
 ```
-npm install live-config
+npm install nodejs-live-config
 ```
 
 
