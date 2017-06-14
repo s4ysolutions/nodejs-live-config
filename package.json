@@ -1,6 +1,6 @@
 {
   "name": "nodejs-live-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A config interface to watch the config dir changed and reload json configuraton files",
   "main": "index.js",
   "scripts": {

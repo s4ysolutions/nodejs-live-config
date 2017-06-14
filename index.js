@@ -52,8 +52,8 @@ getConfig.watch = (dir,files) => {
       }
     }
   })
-  return getConfig();
+  return getConfig;
 }
 
-getConfig.unwatch = () => {if (fsWatcher) {fsWatcher.close();fsWatcher = null}};
+getConfig.unwatch = () => {if (fsWatcher) {fsWatcher.close();fsWatcher = null;return getConfig}};
 module.exports=getConfig;
