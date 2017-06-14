@@ -36,7 +36,6 @@ getConfig.watch = (dir,files) => {
   }else{
     configModule = require.resolve(dir+'/'+files);
     config=require(dir+'/'+files);
-    console.log(configModule,config);
   }
 
   fsWatcher = fs.watch(dir,{persistent:true},function(event,fn){
@@ -53,6 +52,7 @@ getConfig.watch = (dir,files) => {
       }
     }
   })
+  return getConfig();
 }
 
 getConfig.unwatch = () => {if (fsWatcher) {fsWatcher.close();fsWatcher = null}};
