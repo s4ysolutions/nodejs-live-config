@@ -1,6 +1,6 @@
 {
   "name": "nodejs-live-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A config interface to watch the config dir changed and reload json configuraton files",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
     "watch",
     "dynamic"
   ],
-  "author": "S4Y Solution <android@s4y.solutions>",
+  "author": "Sergey Dolin <sergey@s4y.solutions>",
   "license": "ISC"
 }
