@@ -1,10 +1,14 @@
 {
   "name": "nodejs-live-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A config interface to watch the config dir changed and reload json configuraton files",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:s4ysolutions/nodejs-live-config.git"
   },
   "keywords": [
     "config",
