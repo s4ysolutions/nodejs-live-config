@@ -5,14 +5,14 @@ the application restart.
 
 ## Getting Started
 
-Put a config or configs to be "requried" by the application to a dir and call "watch" for them. Since then
+Put a config or configs to a som directory and start watch for them. Since then
 the each invocation of the LiveConfig() will return the most fresh state of a config/configs
 
 Use:
 ```
 const LiveConfig = require ('live-config');
 ...
-config.watch('../etc','config1.json');
+config.watch('./etc','config1.json');
 ...
 console.log(LiveConfig().prop1)
 ...
