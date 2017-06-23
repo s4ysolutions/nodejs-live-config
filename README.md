@@ -10,7 +10,7 @@ the each invocation of the LiveConfig() will return the most fresh state of a co
 
 Use:
 ```
-const LiveConfig = require ('live-config');
+const LiveConfig = require ('nodejs-live-config');
 ...
 config.watch('./etc','config1.json');
 ...
@@ -40,7 +40,7 @@ _etc/config2.json_
 One config file 
 
 ```
-const LiveConfig = require ('live-config');
+const LiveConfig = require ('nodejs-live-config');
 ...
 config.watch('../etc','config1.json');
 ...
@@ -60,7 +60,7 @@ config.unwatch();
 Few configs 
 
 ```
-const LiveConfig = require ('live-config');
+const LiveConfig = require ('nodejs-live-config');
 ...
 config.watch('../etc',['config1.json','config2.json']);
 ...
